@@ -50,7 +50,7 @@ python3.10 -m pip install tpu-info
 # DeepSpeed
 sudo apt-get install libopenmpi-dev -y
 pip install mpi4py -y
-wget https://github.com/radna0/DeepSpeed-XLA.git
+git clone https://github.com/radna0/DeepSpeed-XLA.git
 cd DeepSpeed-XLA
 pip uninstall triton -y
 pip install -e .
