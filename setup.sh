@@ -47,4 +47,15 @@ pip install 'torch_xla[pallas]' \
 python3.10 -m pip install tpu-info
 
 
+# DeepSpeed
+sudo apt-get install libopenmpi-dev
+pip install mpi4py
+
+
+# Restart Machine
 sudo reboot
+
+
+
+
+
