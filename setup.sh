@@ -55,6 +55,7 @@ cd DeepSpeed-XLA
 sudo pip uninstall triton -y
 pip install -e .
 
+cd ~
 # Restart Machine
 sudo reboot
 
