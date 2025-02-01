@@ -52,7 +52,7 @@ sudo apt-get install libopenmpi-dev -y
 pip install mpi4py -y
 git clone https://github.com/radna0/DeepSpeed-XLA.git
 cd DeepSpeed-XLA
-pip uninstall triton -y
+sudo pip uninstall triton -y
 pip install -e .
 
 # Restart Machine
