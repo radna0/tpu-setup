@@ -27,6 +27,8 @@ sudo apt-get install -y libgl1 libglib2.0-0 google-perftools
 
 
 # Pytorch XLA
+sudo pip uninstall -y torch torchvision torch_xla
+pip uninstall -y torch torchvision torch_xla
 pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cpu --user
 
 pip install 'torch_xla[tpu] @ https://storage.googleapis.com/pytorch-xla-releases/wheels/tpuvm/torch_xla-2.7.0.dev+cxx11-cp310-cp310-linux_x86_64.whl' \
